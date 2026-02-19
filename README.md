@@ -17,6 +17,24 @@ gpkg:
 Server = https://service.termux-pacman.dev/gpkg/$arch
 ```
 
+main:
+```
+[main]
+Server = https://service.termux-pacman.dev/main/$arch
+```
+
+x11:
+```
+[x11]
+Server = https://service.termux-pacman.dev/x11/$arch
+```
+
+root:
+```
+[root]
+Server = https://service.termux-pacman.dev/root/$arch
+```
+
 ### Other information:
  - Architecture support: all (aarch64, arm, x86_64, i686)
  - Signature: termux-pacman organization gpg key
